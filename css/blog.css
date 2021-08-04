@@ -1,0 +1,22 @@
+#blog h3,h4{
+	text-align: center;
+
+}
+
+#blog .container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#blog article{
+	margin: 15px;
+}
+#blog label img{
+	width: 100%;
+	max-width: 280px;
+	border-radius: 10px;
+	border: 5px solid rgba(51,51,51,0.9);
+}
+#blog label{
+	cursor: pointer;
+}
